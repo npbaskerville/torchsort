@@ -63,6 +63,7 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     install_requires=["torch"],
+    setup_requires=["torch"],
     python_requires=">=3.7",
     extras_require={
         "testing": [
